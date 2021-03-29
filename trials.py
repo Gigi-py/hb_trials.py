@@ -84,7 +84,7 @@ def has_balanced_parens(string):
             if char ==')':
                 parens-=1
                 if parens < 0:
-                    return False
+                    return False    
 
     return parens < 0
 
